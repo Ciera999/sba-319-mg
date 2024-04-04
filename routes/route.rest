@@ -1,0 +1,17 @@
+GET http://localhost:3000/subcribers
+
+###
+
+GET http://localhost:3000/subscribers/15
+
+###
+
+
+POST http://localhost:3000/subscribers
+
+content-Type: application/json
+
+{
+    "name": "Summer Time"
+    "subscribedToChannel": "Black Women in Tech"
+}
